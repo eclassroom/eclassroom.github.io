@@ -1,6 +1,6 @@
-var username = document.getElementById("username").value;
-var password = document.getElementById("password").value;
 function login(){
+  var username = document.getElementById("username").value;
+var password = document.getElementById("password").value;
   if (username == "20240201"){
    if (password == "32751821"){
     window.location.href="https://eclassroom.github.io/cgi-bin/student/center/?loginKey=9230f2ihfq3ue8wv09woeqvh29vhqovewiha98aweivuowa8ego3hr983woaef892of3a83o9a82qfo8ewa"; 
