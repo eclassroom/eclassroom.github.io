@@ -1,1 +1,32 @@
-
+<!doctype html>
+<html>
+  <head>
+    <title>管理员登录</title>
+    <link rel="shortcut icon" href="https://2fx.fudan.edu.cn/_upload/tpl/09/b1/2481/template2481/favicon.ico" />
+  </head>
+  <body>
+    <fieldset>
+      <legend><b>管理员登录</b> / Administrator Login</legend>
+      <input type="text" placeholder="用户名" name="username" id="username"/>@fudan.edu.cn<br>
+      <input type="password" placeholder="密码" name="password" id="password"/><br>
+      <button onclick="adminlogin()"></button>
+      <script>
+        function adminlogin(){
+          var username=getElementById("username").value;
+          var password=getElementById("password").value;
+          if (username == "shuzhou"){
+            if (password == "Shuzhou2008"){
+              window.location.href="https://eclassroom.github.io/cgi-bin/admin/home/?adminKey=uhe9ifuwhf9r0328fuwiuewhvh9s9evohesoguhew8gywe9go8ewg9w8ghiwuehsdkukjxdvod8b9";
+            }
+            else {
+             alert ("对不起，您的密码有误，请稍后重试。"); 
+            }
+          }
+          else {
+           alert ("对不起，身份认证失败。很有可能你不是管理员或你不是2024届2班的学生或老师。"); 
+          }
+        }
+      </script>
+    </fieldset>
+  </body>
+</html>
